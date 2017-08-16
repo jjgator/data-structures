@@ -14,10 +14,10 @@ var Stack = function() {
   
   someInstance.pop = function() {
     let popped = storage[someInstance.size() - 1]; 
-    console.log('Before pop: ', popped, storage);
+    //console.log('Before pop: ', popped, storage);
     delete storage[someInstance.size() - 1];
     counter--;
-    console.log('After pop: ', popped, storage);
+    //console.log('After pop: ', popped, storage);
     return popped;
   };
 

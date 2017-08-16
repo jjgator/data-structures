@@ -16,7 +16,7 @@
     <script src="../lib/jquery/jquery.js"></script>
     <script src="../lib/underscore/underscore.js"></script>
     <script>
-      $(function(){
+      $(function() {
         $.each(['functional', 'functional-shared', 'prototypal', 'pseudoclassical'], function(i, variant){
           $('<iframe src="' + window.location.toString().replace('.html', 'Section.html?') + variant + '" />').appendTo(document.body);
         });

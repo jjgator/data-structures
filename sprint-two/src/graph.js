@@ -13,7 +13,7 @@ Graph.prototype.addNode = function(node) {
   this.nodes[this.counter] = node;
 
   this.counter++;
-  console.log(this.counter); 
+  //console.log(this.counter); 
 };
 
 // Return a boolean value indicating if the value passed to contains is represented in the graph.
@@ -89,7 +89,7 @@ Graph.prototype.forEachNode = function(cb) {
 
   //1 - iterate through this.nodes.
   //2 - call cb function on each node.
-  console.log(this.nodes);
+  //console.log(this.nodes);
   for (var key in this.nodes) {
     //console.log(this.nodes[key]);
     cb(this.nodes[key]);
